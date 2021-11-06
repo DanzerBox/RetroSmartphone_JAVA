@@ -1,0 +1,103 @@
+//--------------------------------------------------------------
+Olio-ohjelmointi, Projektityö. 05.11.2021
+
+Java Swing, SQLite, WindowBuilder.
+
+Projektin toteutamiseen ohjeistus:
+WindowBuilder asennus kestää 15-20min ohjeiden mukaan.
+
+Jos tulee vaikeuksia!
+Etsi suoraan verkosta "GUI (sovelluksen nimi) with Java"
+Verkosta usein miten löytyy valmiita malleja ja esimerkkejä.
+
+ //-------------------------------------------------------------
+
+WindoBuilderin asentaminen:
+
+Avaa Eclipse --> Help --> Eclipse Marketplace.. --> Hae (WindowBuilder) --> Asenna
+ (Asennus näkyy oikealla alhaalla)
+--> Käynnistä uudelleen  --> (Luo tarvittaessa uusi Project ja Class)
+--> Paina "Edit" valikon alapuolelta "+" merkkistä ikonia ja valitse seuraavat
+-> Swing -> Application Window --> Paina oikealla hiiren napilla java tiedostoa ja valitse
+--> open with.. --> WindowBuilder Editor.
+
+Ohjevideo asentamiseen (kyllä löytyy muitakin, kesto 5min):
+
+" https://www.youtube.com/watch?v=ndhFmgzi6io "
+
+Hyvä ohjevideo WindowBuilderin käyttöön (Aloita katsominen 12:40 ajasta):
+
+" https://www.youtube.com/watch?v=KdTsY3G_To0 "
+
+//-------------------------------------------------------------
+
+SOVELLUKSET
+
+===MUSIC SOVELLUS:
+
+
+Java audion lisääminen:
+" https://www.youtube.com/watch?v=SyZQVJiARTQ "
+
+++ Java how to make an mp3 player! (Hyvä ohjevideo):
+" https://www.youtube.com/watch?v=Cfyb2o8w6Jg "
+
+Muutama valmis projekti: 
+
+https://github.com/Shaad7/SimPlayer
+https://github.com/DipankerSingh/Music-Player
+
+
+===KELLO SOVELLUS:
+
+
+Muutama valmis projekti: 
+
+https://gist.github.com/studyviral/daf40bcd3e664a5816c227558e3acff0
+https://github.com/kelroy/DigitalClock.java
+
+
+
+
+//------------------------------------------------------------
+
+POHJAN KOKO
+
+
+TabbedPane koko:
+638px - 360px (x115 - y42)
+
+Sovellusnappien koko:
+150px - 83px
+----(suurempi nappi on 300px - 83px)
+
+koko ikkunan koko:
+900px - 674px
+
+känny kuvan koko:
+886px - 680px
+
+((keskeneräinen, älä huomioi))
+päävalikon yläpalkin koko:
+647px- 40px)
+
+//----------------------------------------------------------------
+
+SQL tietokannan liittäminen
+
+Kannattaa olla valmiina etukäteen jokin tietokanta tiedosto.db
+esim SQLite (DB Browser) avulla.
+
+-> Connection SQL DataBase to Java  ( 1 of 2 )
+
+" https://www.youtube.com/watch?v=JuYb-VZaD1g "
+
+-> Connection SQL DataBase to Java  ( 2 of 2 )
+
+" https://www.youtube.com/watch?v=l7IDevUUa3A "
+
+SQLITE JDBC Driver tallentaminen, ohjeet:
+
+https://www.sqlitetutorial.net/sqlite-java/sqlite-jdbc-driver/
+
+//----------------------------------------------------------------
